@@ -22,8 +22,8 @@ h2 {
 .wrapper {
 
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr) 20vh;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 40vh 40vh 20vh;
       
 }
 .one_shop-item {
@@ -52,12 +52,28 @@ h2 {
     grid-row-start:2 ;
     grid-row-end:3;
 }
+footer {
+    grid-column-start:1;
+    grid-column-end:3;
+    grid-row-start:3 ;
+    grid-row-end:4;   
+}
+.footer{
 
+        display:flex;
+        flex-flow: rowwrap;
+        justify-content: center;
+
+}
+/* .cart {
+    grid-row-start:3 ;
+    grid-row-end:4;    
+}
 .cart {
     display:flex;
     flex-flow: rowwrap;
     justify-content: center;
-}
+} */
 
 .nav {
 
