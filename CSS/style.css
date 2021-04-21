@@ -1,0 +1,85 @@
+* {
+    padding:0;
+    margin:0;
+    background-color: aqua;
+}
+
+
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 2em;
+}
+
+h2 {
+    color:slateblue;
+    font-family: 'RocknRoll One', sans-serif;
+    font-weight: 100;
+    margin: 30px;
+}
+.wrapper {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr) 20vh;
+      
+}
+.one_shop-item {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.two_shop-item{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:1 ;
+    grid-row-end:2;
+}
+
+.three_shop-item{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:2 ;
+    grid-row-end:3;
+}
+.four_shop-item{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:2 ;
+    grid-row-end:3;
+}
+
+.cart {
+    display:flex;
+    flex-flow: rowwrap;
+    justify-content: center;
+}
+
+.nav {
+
+    display: flex;
+    flex-flow: rowwrap;
+    justify-content: center;   
+}
+
+.nav li a {
+    text-decoration: none;
+    font-family: 'RocknRoll One', sans-serif;
+    color:slateblue;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+@media only screen and (max-width: 640px) {
+
+
+
+}
+
+
